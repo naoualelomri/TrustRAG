@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Application runtime data
+backend/uploads/*
+backend/chroma_db/*
+
+# Keep directories in Git
+!backend/uploads/.gitkeep
+!backend/chroma_db/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
